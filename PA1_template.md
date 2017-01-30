@@ -16,6 +16,7 @@ dailysteps<-aggregate(steps~date,data1,sum)
 
 #2.Make a histogram of the total number of steps taken each day
 hist(dailysteps$steps,main="Histogram of total number of steps per day", xlab="Steps per day")
+![unnamed-chunk-2-1](https://cloud.githubusercontent.com/assets/24257469/22413649/8217c900-e66e-11e6-8858-f05c02744cf5.png)
 
 #3Calculate and report the mean and median of the total number of steps taken per day
 summary(dailysteps)
