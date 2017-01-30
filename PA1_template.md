@@ -2,7 +2,7 @@
 title: "Project1"
 author: "xujz4f"
 date: "January 25, 2017"
-output: html_document
+output: md_document
 ---
 #import activity as data
 #remove NA
